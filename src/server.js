@@ -6,7 +6,7 @@ import { userRoute } from "./Routes/user.route.js";
 import cookieParser from "cookie-parser"
 import { limiter } from "./Services/ratelimiter.js";
 import morgan from "morgan";
-import { logger } from "./utils/logger.js";
+import { logger } from "./Utils/logger.js";
 
 // process environment config
 
